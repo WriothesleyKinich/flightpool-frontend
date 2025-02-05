@@ -4,6 +4,13 @@ header {
 header .container,header ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 32px;
+}
+
+header ul{
+    margin: 0 auto;
+} 
+header .fa{
+    color: var(--blue);
 }

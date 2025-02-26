@@ -1,0 +1,137 @@
+header {
+    padding: 32px 0;
+}
+
+header .container,
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.hero {
+    padding: 130px 0;
+    /* подключение */
+    background-image: url(../image/risley.jpg);
+    /* Размеры (COVER - растягивает картинку) */
+    background-size: cover;
+    /* Повторение картинки */
+    background-repeat: no-repeat;
+    /* Расположение картинки */
+    background-position: center center;
+}
+
+.hero_lead {
+    color: yellow;
+    font-size: 60px;
+    text-align: center;
+}
+
+.hero_desc {
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+    /* отступ между буквами */
+    letter-spacing: 5px;
+}
+
+.ios {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #ffff00;
+    font-size: 20px;
+    border: 0px solid white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.how-work_title {
+    text-align: center;
+    font-size: 40px;
+    color: hsl(37, 100%, 50%);
+}
+
+.ios i {
+    font-size: 50px;
+    color: rgb(255, 157, 0);
+}
+
+.trust_item {
+    padding: 80px 0;
+}
+
+.trust_item:first-child {
+    padding: 130px 0;
+    /* подключение */
+    background-image: url(../image/image2.jpg);
+
+    background-size: 100% 300px;
+    /* Размеры (COVER - растягивает картинку) */
+    background-repeat: no-repeat;
+    /* Расположение картинки */
+    background-position: center center;
+    text-align: center;
+}
+
+.trust_title {
+    font-size: 64px;
+    color: white !important;
+}
+
+.trust h2 {
+    color: #ffff00;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    width: 52%;
+    display: inline-block;
+    text-align: center;
+}
+
+.trust_cat {
+    flex: 1 1 calc(33% - 32px);
+    border: 0px solid black;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+    /* Добавить тень карточки с помощью '' */
+    box-shadow: -6px -9px 29px -14px rgba(34, 60, 80, 0.6) inset;
+    transition: 1s;
+}
+
+.trust_cat:hover {
+    transform: scale(1.2);
+}
+
+.trust_list {
+    display: flex;
+    
+    gap: 15px;
+    text-align: center;
+    color: #ffff00;
+    font-size: 20px;
+    border: 0px solid white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.trust_list h3{
+    font-size: 50px;
+    color: rgb(255, 157, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trust_list i{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kotik {
+    height: 480px;
+    width: 900px;
+}
